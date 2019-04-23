@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ug2-aL-PXM">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="bXF-rP-SbT">
+            <objects>
+                <viewController id="00o-gf-1sF" customClass="VotingViewController" customModule="Poll" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sUf-tb-Xgd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="juP-vY-ehZ">
+                                <rect key="frame" x="20" y="221" width="374" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Response" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YjR-5d-w2q">
+                                <rect key="frame" x="20" y="261" width="374" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B29-pN-gqH">
+                                <rect key="frame" x="174" y="314" width="67" height="30"/>
+                                <state key="normal" title="Submit"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="What is your favorite color?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yF-Ua-2Dd">
+                                <rect key="frame" x="85" y="177" width="245" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="juP-vY-ehZ" firstAttribute="trailing" secondItem="YjR-5d-w2q" secondAttribute="trailing" id="29z-dk-AX3"/>
+                            <constraint firstItem="6yF-Ua-2Dd" firstAttribute="centerX" secondItem="juP-vY-ehZ" secondAttribute="centerX" id="D2h-Ah-YXy"/>
+                            <constraint firstItem="juP-vY-ehZ" firstAttribute="leading" secondItem="YjR-5d-w2q" secondAttribute="leading" id="DGt-ZP-iHg"/>
+                            <constraint firstItem="YjR-5d-w2q" firstAttribute="centerX" secondItem="B29-pN-gqH" secondAttribute="centerX" id="Fmx-2j-9kY"/>
+                            <constraint firstItem="juP-vY-ehZ" firstAttribute="trailing" secondItem="sUf-tb-Xgd" secondAttribute="trailingMargin" id="Ke7-aI-cjH"/>
+                            <constraint firstItem="juP-vY-ehZ" firstAttribute="leading" secondItem="sUf-tb-Xgd" secondAttribute="leadingMargin" id="OVK-qe-LHS"/>
+                            <constraint firstItem="6yF-Ua-2Dd" firstAttribute="top" secondItem="gn8-35-mae" secondAttribute="top" constant="133" id="Ycd-Gg-xtC"/>
+                            <constraint firstItem="B29-pN-gqH" firstAttribute="top" secondItem="YjR-5d-w2q" secondAttribute="bottom" constant="23" id="YuN-Lg-sfT"/>
+                            <constraint firstItem="B29-pN-gqH" firstAttribute="leading" secondItem="gn8-35-mae" secondAttribute="leading" constant="174" id="d2H-hH-Qau"/>
+                            <constraint firstItem="6yF-Ua-2Dd" firstAttribute="leading" secondItem="gn8-35-mae" secondAttribute="leading" constant="85" id="glD-nm-5SM"/>
+                            <constraint firstItem="juP-vY-ehZ" firstAttribute="top" secondItem="6yF-Ua-2Dd" secondAttribute="bottom" constant="23" id="nvw-KQ-vPT"/>
+                            <constraint firstItem="YjR-5d-w2q" firstAttribute="top" secondItem="juP-vY-ehZ" secondAttribute="bottom" constant="10" id="zR0-DD-fFJ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gn8-35-mae"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="6o8-0q-b9S"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nFZ-ev-vyA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900.00000000000011" y="102.45535714285714"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GNL-Vn-A0S">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Ug2-aL-PXM" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lWG-tw-eli">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="00o-gf-1sF" kind="relationship" relationship="viewControllers" id="kmP-1m-YN7"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Khl-2A-XRF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10.144927536231885" y="102.45535714285714"/>
+        </scene>
+    </scenes>
+</document>
