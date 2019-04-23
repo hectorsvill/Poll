@@ -8,13 +8,16 @@
 
 import UIKit
 
-class CombinedViewController: UIViewController {
-
-    override func viewDidLoad() {
+class CombinedViewController: UIViewController, VoteControllerProtocol {
+	var voteController: VoteController?
+	
+	override func viewDidLoad() {
         super.viewDidLoad()
-
+		
         
     }
-    
+	override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+		
+	}
 
 }

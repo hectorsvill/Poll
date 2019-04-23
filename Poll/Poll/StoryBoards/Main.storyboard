@@ -13,7 +13,7 @@
         <scene sceneID="XgY-Eu-yDE">
             <objects>
                 <tabBarController id="9ig-dU-acD" customClass="PollingTabBarViewController" customModule="Poll" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oMN-cF-kAx">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="oMN-cF-kAx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -32,21 +32,21 @@
         <scene sceneID="XUk-kq-mqf">
             <objects>
                 <viewControllerPlaceholder storyboardName="Voting" id="bp1-cU-dgE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="diu-2Z-xkF"/>
+                    <tabBarItem key="tabBarItem" title="Voting" id="diu-2Z-xkF"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lGN-1l-4Y9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-801" y="-637"/>
+            <point key="canvasLocation" x="-1835" y="-45"/>
         </scene>
         <!--Results-->
         <scene sceneID="80i-Vc-d44">
             <objects>
                 <viewControllerPlaceholder storyboardName="Results" id="gEt-9a-qxL" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="V4J-W5-hOF"/>
+                    <tabBarItem key="tabBarItem" title="Results" id="V4J-W5-hOF"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IeH-cr-ik2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-801" y="-453"/>
+            <point key="canvasLocation" x="-1441" y="52"/>
         </scene>
         <!--Combined-->
         <scene sceneID="6SH-gA-E1E">
@@ -56,7 +56,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pUR-56-FXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-801" y="-195"/>
+            <point key="canvasLocation" x="-1042" y="-45"/>
         </scene>
     </scenes>
 </document>

@@ -9,21 +9,22 @@
 import UIKit
 
 class PollingTabBarViewController: UITabBarController {
-
 	var voteController = VoteController()
 	
     override func viewDidLoad() {
         super.viewDidLoad()
+		passVoteControllerToChildViewControllers()
 		
     }
 	
 	func passVoteControllerToChildViewControllers() {
 		for childrenController in children {
-			guard let child = childrenController as? VoteControllerProtocol else {
-				print("Error: passVoteControllerToChildViewControllers")
-				return
-			}
 			
+			if let child =  childrenController as? VoteControllerProtocol {
+				child.voteController = voteController
+			} else {
+				print("error: passVoteControllerToChildViewControllers()")
+			}
 		}
 	}
 
