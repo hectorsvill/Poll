@@ -52,9 +52,7 @@
         <scene sceneID="6SH-gA-E1E">
             <objects>
                 <viewControllerPlaceholder storyboardName="Combined" id="zbI-Or-ftE" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Combined" id="tcR-GH-Bfd">
-                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="Combined" id="tcR-GH-Bfd"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pUR-56-FXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

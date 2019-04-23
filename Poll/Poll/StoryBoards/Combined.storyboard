@@ -25,7 +25,7 @@
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qlo-yd-p1S">
-                                <rect key="frame" x="0.0" y="366" width="414" height="530"/>
+                                <rect key="frame" x="0.0" y="366" width="414" height="496"/>
                                 <connections>
                                     <segue destination="8ze-WN-bKN" kind="embed" identifier="ResultsSegue" id="ouW-Md-drm"/>
                                 </connections>
@@ -35,7 +35,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="tCd-4d-fle" secondAttribute="trailing" id="1Vz-JS-Mln"/>
                             <constraint firstItem="tCd-4d-fle" firstAttribute="top" secondItem="3jQ-uk-IIq" secondAttribute="top" id="MYL-Y3-mCw"/>
-                            <constraint firstAttribute="bottom" secondItem="Qlo-yd-p1S" secondAttribute="bottom" id="Nzb-IR-eI5"/>
+                            <constraint firstAttribute="bottom" secondItem="Qlo-yd-p1S" secondAttribute="bottom" constant="34" id="Nzb-IR-eI5"/>
                             <constraint firstItem="Qlo-yd-p1S" firstAttribute="top" secondItem="3jQ-uk-IIq" secondAttribute="top" constant="366" id="abZ-qu-jQm"/>
                             <constraint firstItem="Qlo-yd-p1S" firstAttribute="top" secondItem="tCd-4d-fle" secondAttribute="bottom" constant="-2" id="cZ8-bV-jdd"/>
                             <constraint firstItem="tCd-4d-fle" firstAttribute="trailing" secondItem="Qlo-yd-p1S" secondAttribute="trailing" id="lSn-Dk-RI0"/>

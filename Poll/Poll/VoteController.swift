@@ -8,7 +8,7 @@
 
 import UIKit
 
-class VoteContrller {
+class VoteController {
 	var votes: [Vote] = []
 	
 	init() {
