@@ -13,6 +13,8 @@
 		E88628AF226E7426009275CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88628AD226E7426009275CF /* LaunchScreen.storyboard */; };
 		E8CE1050226EAA88006908DB /* VotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CE104F226EAA88006908DB /* VotesTableViewController.swift */; };
 		E8CE1052226EAAE7006908DB /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CE1051226EAAE7006908DB /* VotingViewController.swift */; };
+		E8CE1054226EB4FB006908DB /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CE1053226EB4FB006908DB /* Vote.swift */; };
+		E8CE1056226EB5DB006908DB /* VoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CE1055226EB5DB006908DB /* VoteController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E88628B0226E7426009275CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8CE104F226EAA88006908DB /* VotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotesTableViewController.swift; sourceTree = "<group>"; };
 		E8CE1051226EAAE7006908DB /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		E8CE1053226EB4FB006908DB /* Vote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
+		E8CE1055226EB5DB006908DB /* VoteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		E88628A3226E7424009275CF /* Poll */ = {
 			isa = PBXGroup;
 			children = (
+				E8CE1053226EB4FB006908DB /* Vote.swift */,
+				E8CE1055226EB5DB006908DB /* VoteController.swift */,
 				E8CE104F226EAA88006908DB /* VotesTableViewController.swift */,
 				E8CE1051226EAAE7006908DB /* VotingViewController.swift */,
 				E88628A4226E7424009275CF /* AppDelegate.swift */,
@@ -156,7 +162,9 @@
 			files = (
 				E88628A5226E7424009275CF /* AppDelegate.swift in Sources */,
 				E8CE1050226EAA88006908DB /* VotesTableViewController.swift in Sources */,
+				E8CE1056226EB5DB006908DB /* VoteController.swift in Sources */,
 				E8CE1052226EAAE7006908DB /* VotingViewController.swift in Sources */,
+				E8CE1054226EB4FB006908DB /* Vote.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

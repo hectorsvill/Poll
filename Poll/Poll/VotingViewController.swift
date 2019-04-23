@@ -9,6 +9,10 @@
 import UIKit
 
 class VotingViewController: UIViewController {
+	@IBOutlet weak var nameTextField: UITextField!
+	@IBOutlet weak var Month: UITextField!
+	
+	
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
