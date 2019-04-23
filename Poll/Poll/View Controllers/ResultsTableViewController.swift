@@ -14,6 +14,7 @@ class ResultsTableViewController: UITableViewController, VoteControllerProtocol 
 	
     override func viewDidLoad() {
         super.viewDidLoad()
+		tableView.reloadData()
     }
 	
 	
