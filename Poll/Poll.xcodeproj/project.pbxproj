@@ -16,6 +16,8 @@
 		E8CE105C226EBBB9006908DB /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CE105B226EBBB9006908DB /* VotingViewController.swift */; };
 		E8CE105E226EC055006908DB /* Results.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CE105D226EC055006908DB /* Results.storyboard */; };
 		E8CE1060226EC0DF006908DB /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CE105F226EC0DF006908DB /* ResultsTableViewController.swift */; };
+		E8CE1062226EC193006908DB /* Combined.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CE1061226EC193006908DB /* Combined.storyboard */; };
+		E8CE1064226EC4AD006908DB /* CombinedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CE1063226EC4AD006908DB /* CombinedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		E8CE105B226EBBB9006908DB /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
 		E8CE105D226EC055006908DB /* Results.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Results.storyboard; sourceTree = "<group>"; };
 		E8CE105F226EC0DF006908DB /* ResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		E8CE1061226EC193006908DB /* Combined.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Combined.storyboard; sourceTree = "<group>"; };
+		E8CE1063226EC4AD006908DB /* CombinedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				E8CE1055226EB5DB006908DB /* VoteController.swift */,
 				E8CE105B226EBBB9006908DB /* VotingViewController.swift */,
 				E8CE105F226EC0DF006908DB /* ResultsTableViewController.swift */,
+				E8CE1063226EC4AD006908DB /* CombinedViewController.swift */,
 				E88628A4226E7424009275CF /* AppDelegate.swift */,
 				E88628B6226E7452009275CF /* StoryBoards */,
 				E88628B7226E748E009275CF /* Resources */,
@@ -78,6 +83,7 @@
 			children = (
 				E8CE1057226EB8FC006908DB /* Voting.storyboard */,
 				E8CE105D226EC055006908DB /* Results.storyboard */,
+				E8CE1061226EC193006908DB /* Combined.storyboard */,
 				E88628AD226E7426009275CF /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoards;
@@ -152,6 +158,7 @@
 			files = (
 				E88628AF226E7426009275CF /* LaunchScreen.storyboard in Resources */,
 				E88628AC226E7426009275CF /* Assets.xcassets in Resources */,
+				E8CE1062226EC193006908DB /* Combined.storyboard in Resources */,
 				E8CE1058226EB8FC006908DB /* Voting.storyboard in Resources */,
 				E8CE105E226EC055006908DB /* Results.storyboard in Resources */,
 			);
@@ -169,6 +176,7 @@
 				E8CE1054226EB4FB006908DB /* Vote.swift in Sources */,
 				E8CE105C226EBBB9006908DB /* VotingViewController.swift in Sources */,
 				E8CE1060226EC0DF006908DB /* ResultsTableViewController.swift in Sources */,
+				E8CE1064226EC4AD006908DB /* CombinedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
