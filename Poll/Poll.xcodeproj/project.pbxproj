@@ -11,6 +11,8 @@
 		E88628AA226E7425009275CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88628A8226E7425009275CF /* Main.storyboard */; };
 		E88628AC226E7426009275CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E88628AB226E7426009275CF /* Assets.xcassets */; };
 		E88628AF226E7426009275CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E88628AD226E7426009275CF /* LaunchScreen.storyboard */; };
+		E8CE1050226EAA88006908DB /* VotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CE104F226EAA88006908DB /* VotesTableViewController.swift */; };
+		E8CE1052226EAAE7006908DB /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CE1051226EAAE7006908DB /* VotingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		E88628AB226E7426009275CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E88628AE226E7426009275CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E88628B0226E7426009275CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CE104F226EAA88006908DB /* VotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotesTableViewController.swift; sourceTree = "<group>"; };
+		E8CE1051226EAAE7006908DB /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		E88628A3226E7424009275CF /* Poll */ = {
 			isa = PBXGroup;
 			children = (
+				E8CE104F226EAA88006908DB /* VotesTableViewController.swift */,
+				E8CE1051226EAAE7006908DB /* VotingViewController.swift */,
 				E88628A4226E7424009275CF /* AppDelegate.swift */,
 				E88628B6226E7452009275CF /* StoryBoards */,
 				E88628B7226E748E009275CF /* Resources */,
@@ -62,8 +68,8 @@
 		E88628B6226E7452009275CF /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
-				E88628AD226E7426009275CF /* LaunchScreen.storyboard */,
 				E88628A8226E7425009275CF /* Main.storyboard */,
+				E88628AD226E7426009275CF /* LaunchScreen.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -149,6 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E88628A5226E7424009275CF /* AppDelegate.swift in Sources */,
+				E8CE1050226EAA88006908DB /* VotesTableViewController.swift in Sources */,
+				E8CE1052226EAAE7006908DB /* VotingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
