@@ -14,6 +14,7 @@ class VoteContrller {
 	init() {
 		Create(name: "Mike", response: "May")
 		Create(name: "Hector", response: "May")
+		Create(name: "Marcela", response: "December")
 	}
 	
 	func Create(name: String, response: String) {
