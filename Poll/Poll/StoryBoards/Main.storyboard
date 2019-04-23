@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9ig-dU-acD">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Polling Tab Bar View Controller-->
+        <scene sceneID="XgY-Eu-yDE">
+            <objects>
+                <tabBarController id="9ig-dU-acD" customClass="PollingTabBarViewController" customModule="Poll" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oMN-cF-kAx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="bp1-cU-dgE" kind="relationship" relationship="viewControllers" id="TRS-j8-vmS"/>
+                        <segue destination="gEt-9a-qxL" kind="relationship" relationship="viewControllers" id="Lhq-Ef-y3J"/>
+                        <segue destination="zbI-Or-ftE" kind="relationship" relationship="viewControllers" id="fHB-Db-BIG"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qRJ-Vc-0eQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1442" y="-453"/>
+        </scene>
+        <!--Voting-->
+        <scene sceneID="XUk-kq-mqf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Voting" id="bp1-cU-dgE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="diu-2Z-xkF"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lGN-1l-4Y9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-801" y="-637"/>
+        </scene>
+        <!--Results-->
+        <scene sceneID="80i-Vc-d44">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Results" id="gEt-9a-qxL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="V4J-W5-hOF"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IeH-cr-ik2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-801" y="-453"/>
+        </scene>
+        <!--Combined-->
+        <scene sceneID="6SH-gA-E1E">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Combined" id="zbI-Or-ftE" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Combined" id="tcR-GH-Bfd">
+                        <color key="badgeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pUR-56-FXf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-801" y="-195"/>
+        </scene>
+    </scenes>
+</document>

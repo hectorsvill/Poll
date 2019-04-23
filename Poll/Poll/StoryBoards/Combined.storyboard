@@ -19,13 +19,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tCd-4d-fle">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="454"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="368"/>
                                 <connections>
                                     <segue destination="deF-sp-coY" kind="embed" identifier="Votingsegue" id="uVx-PS-v5t"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qlo-yd-p1S">
-                                <rect key="frame" x="0.0" y="455" width="414" height="441"/>
+                                <rect key="frame" x="0.0" y="366" width="414" height="530"/>
                                 <connections>
                                     <segue destination="8ze-WN-bKN" kind="embed" identifier="ResultsSegue" id="ouW-Md-drm"/>
                                 </connections>
@@ -36,8 +36,8 @@
                             <constraint firstAttribute="trailing" secondItem="tCd-4d-fle" secondAttribute="trailing" id="1Vz-JS-Mln"/>
                             <constraint firstItem="tCd-4d-fle" firstAttribute="top" secondItem="3jQ-uk-IIq" secondAttribute="top" id="MYL-Y3-mCw"/>
                             <constraint firstAttribute="bottom" secondItem="Qlo-yd-p1S" secondAttribute="bottom" id="Nzb-IR-eI5"/>
-                            <constraint firstItem="Qlo-yd-p1S" firstAttribute="top" secondItem="3jQ-uk-IIq" secondAttribute="top" constant="455" id="abZ-qu-jQm"/>
-                            <constraint firstItem="Qlo-yd-p1S" firstAttribute="top" secondItem="tCd-4d-fle" secondAttribute="bottom" constant="1" id="cZ8-bV-jdd"/>
+                            <constraint firstItem="Qlo-yd-p1S" firstAttribute="top" secondItem="3jQ-uk-IIq" secondAttribute="top" constant="366" id="abZ-qu-jQm"/>
+                            <constraint firstItem="Qlo-yd-p1S" firstAttribute="top" secondItem="tCd-4d-fle" secondAttribute="bottom" constant="-2" id="cZ8-bV-jdd"/>
                             <constraint firstItem="tCd-4d-fle" firstAttribute="trailing" secondItem="Qlo-yd-p1S" secondAttribute="trailing" id="lSn-Dk-RI0"/>
                             <constraint firstItem="tCd-4d-fle" firstAttribute="leading" secondItem="3jQ-uk-IIq" secondAttribute="leading" id="nWY-uE-r28"/>
                             <constraint firstItem="tCd-4d-fle" firstAttribute="leading" secondItem="Qlo-yd-p1S" secondAttribute="leading" id="t6n-Tu-c8V"/>

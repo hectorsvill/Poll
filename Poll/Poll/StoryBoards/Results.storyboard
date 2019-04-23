@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Results Table View Controller-->
+        <!--Results-->
         <scene sceneID="j8l-Zq-qEU">
             <objects>
                 <tableViewController id="kKV-VI-vzf" customClass="ResultsTableViewController" customModule="Poll" customModuleProvider="target" sceneMemberID="viewController">
@@ -48,10 +48,11 @@
                             <outlet property="delegate" destination="kKV-VI-vzf" id="W9B-Sc-5zJ"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Results" id="7gB-Li-w6A"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NJs-zX-RWL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-64" y="91"/>
+            <point key="canvasLocation" x="844.92753623188412" y="90.401785714285708"/>
         </scene>
     </scenes>
 </document>
