@@ -60,8 +60,8 @@
 			children = (
 				E8CE1053226EB4FB006908DB /* Vote.swift */,
 				E8CE1055226EB5DB006908DB /* VoteController.swift */,
-				E88628A4226E7424009275CF /* AppDelegate.swift */,
 				E8CE105B226EBBB9006908DB /* VotingViewController.swift */,
+				E88628A4226E7424009275CF /* AppDelegate.swift */,
 				E88628B6226E7452009275CF /* StoryBoards */,
 				E88628B7226E748E009275CF /* Resources */,
 			);
