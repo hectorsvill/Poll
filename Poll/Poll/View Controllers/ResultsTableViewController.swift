@@ -10,6 +10,8 @@ import UIKit
 
 class ResultsTableViewController: UITableViewController {
 
+	var voteController = VoteController()
+	
     override func viewDidLoad() {
         super.viewDidLoad()
 
