@@ -20,11 +20,11 @@ class PollingTabBarViewController: UITabBarController {
 	func passVoteControllerToChildViewControllers() {
 		for childrenController in children {
 			
-			if let child =  childrenController as? VoteControllerProtocol {
-				child.voteController = voteController
-			} else {
+			guard let child =  childrenController as? VoteControllerProtocol  else {
 				print("error: passVoteControllerToChildViewControllers()")
+				return
 			}
+			child.voteController = voteController
 		}
 	}
 
